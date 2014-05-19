@@ -1,0 +1,223 @@
+[
+    {
+        "place_name": "HTWG Konstanz",
+        "lat": "9.172027",
+        "long": "47.667736",
+        "programme_entries": [
+            {
+                "from_to": "17:00-20:00",
+                "title": "Experimentieren mit Technik - für Kinder ab drei Jahren",
+                "description": "Technischen Geheimnissen mit allen Sinnen auf der Spur: Wir spielen mit Stimmen, bringen Glühbirnen zum Leuchten und Farben zum Tanzen!",
+                "kind": [
+                    "Mitmachen",
+                    "Kinder"
+                ],
+                "details": "Haus der kleinen Forscher, Kita Sonnenbuehl, F120"
+            },
+	    {
+                "from_to": "17:00-20:00",
+                "title": "Fahrt mit dem Brennstoffzellentruck",
+                "description": "Und er fährt doch - mit schadstofffreier Brennstoffzelle. Geleiten Sie ihn per Fernbedienung durch einen Parcours!",
+                "kind": [
+                    "Mitmachen",
+                    "Kinder"
+                ],
+                "details": "Fakultät Maschinenbau, Foyer F"
+            },
+	    {
+                "from_to": "17:15-18:00",
+                "title": "Origami-Workshop",
+                "description": "Ganz analog: Die Kunst des Papierfaltens für Kinder ab 6 Jahre. Erwachsene sehen die digitale Entstehung des Modells ab 19.30 Uhr im RAPLAB.",
+                "kind": [
+                    "Mitmachen",
+                    "Kinder"
+                ],
+                "details": "Prof. Dr. Oliver Fritz, F110"
+            },
+	    {
+                "from_to": "17:30-18:15",
+                "title": "Music makes me loose control!",
+                "description": "Bewegungstheaterworkshop für Kinder ab 6: Mit Spaß, Musik, Energie und Dynamik rocken wir analog das Digitale!",
+                "kind": [
+                    "Mitmachen",
+                    "Kinder"
+                ],
+                "details": "Felix Strasser, Theaterpädagoge, F119"
+            },
+	    {
+                "from_to": "17:00-20:00",
+                "title": "Mathematik zum Begreifen",
+                "description": "Mathematik für Groß und Klein: Interessantes und Erstaunliches jenseits der Schulmathematik zum Selbstausprobieren.",
+                "kind": [
+                    "Mitmachen",
+                    "Kinder"
+                ],
+                "details": "Institut für Naturwissenschaften und Mathematik, F 1.OG"
+            }
+        ]
+    },
+    {
+        "place_name": "Insel Mainau",
+        "lat": "9.195746",
+        "long": "47.703928",
+        "programme_entries": [
+            {
+                "from_to": "17:00-21:30",
+                "title": "Digitale Klimasteuerung: Optimales Wetter für die Pflanzen",
+                "description": "Schon die Ägypter besaßen Gewächshäuser, die beheizt werden mussten. Wer sorgt auf der Blumeninsel für ein gutes Klima im Gewächshaus?",
+                "kind": [
+                    "Führung",
+                    "Kinder"
+                ],
+                "details": "Führungen von Referatsleiter Glas- und Schauhäuser, Alois Englmeier, Wirtschaftsgebäude, Gärtnerei, jeweils halbstündlich"
+            },
+          {
+                "from_to": "18:00-19:00",
+                "title": "Sinnespfad - ganz einfach analog",
+                "description": "Sinneseindrücke, reine Naturerlebnisse, analoge Erfahrungen vs. QR-Codes, Facebook und Twitter?! ",
+                "kind": [
+                    "Führung",
+                    "Kinder"
+                ],
+                "details": "Führung von Prof. Dr. Alexander Klaußner, St. Katharina Innenhof"
+            },
+          {
+                "from_to": "17:00-00:00",
+                "title": "Mit allen Sinnen genießen – die Mainau Küchenwelt – einfach lecker!",
+                "description": "Düfte am Herd, Vorfreude aufs Schlemmen: Kochen ist ein analoges Vergnügen, auch an der Live-Kochstation von Mainau-Küchenchef",
+                "kind": [
+                    "Vorführung",
+                    "Kinder"
+                ],
+                "details": "Vorführung von Mainau Küchenchef Herbert Brand, Palmenhaus"
+            },
+          {
+                "from_to": "17:00-18:00",
+                "title": "Schatzkarte oder GPS? Schätzjäger aufgepasst!",
+                "description": "Schatzjäger aufgepasst – bewaffnet mit den modernsten Mitteln der Orientierung (GPS) oder einer einfachen Schatzkarte geht’s auf die Suche!",
+                "kind": [
+                    "Vorführung",
+                    "Kinder"
+                ],
+                "details": "Mitmachaktion ab dem Mainau-Servicezentrum mit Gabriele Teichmann, Torbogengebäude"
+            },
+          {
+                "from_to": "18:00-19:00",
+                "title": "Schatzkarte oder GPS? Schätzjäger aufgepasst!",
+                "description": "Schatzjäger aufgepasst – bewaffnet mit den modernsten Mitteln der Orientierung (GPS) oder einer einfachen Schatzkarte geht’s auf die Suche!",
+                "kind": [
+                    "Vorführung",
+                    "Kinder"
+                ],
+                "details": "Mitmachaktion ab dem Mainau-Servicezentrum mit Gabriele Teichmann, Torbogengebäude"
+            }
+        ]
+    },
+    {
+        "place_name": "Kulturzentrum am Münster (Stadt und PHTG)",
+        "lat": "9.175139",
+        "long": "47.663386",
+        "programme_entries": [
+            {
+                "from_to": "17:00-22:00",
+                "title": "Analoge UND digitale Lernwirklichkeiten",
+                "description": "Mit Gummistiefeln in den Daten-Dschungel - erlebnisreiches Lernen mit digitalen und analogen Mitteln.",
+                "kind": [
+                    "Mitmachen",
+                    "Kinder",
+		    "Ausstellung"
+                ],
+                "details": "Medien- und Didaktikzentrum, Fachbereich Gestaltung und Forschungsabteilung der PHTG, Astoria-Saal"
+            },
+            {
+                "from_to": "17:00-22:00",
+                "title": "Wie echt ist 3D, wie echt die Wirklichkeit?",
+                "description": "Wie komme ich der Wirklichkeit am nächsten. Möglichkeiten und Grenzen von 3D-Modellen und Originalexponaten.",
+                "kind": [
+                    "Mitmachen",
+                    "Kinder",
+		    "Ausstellung"
+                ],
+                "details": "Medien- und Didaktikzentrum, Fachbereich Gestaltung und Forschungsabteilung der PHTG, Astoria-Saal"
+            },
+            {
+                "from_to": "17:00-22:00",
+                "title": "Das Wissen der Welt in der Hosentasche - iPod, Smartphone und Co.",
+                "description": "Ist ein Leben ohne Wikipedia für Schulkinder von heute noch denkbar? Chancen und Grenzen des permanenten Zugriffs auf das Wissen der Welt.",
+                "kind": [
+                    "Mitmachen",
+                    "Kinder",
+		    "Ausstellung"
+                ],
+                "details": "Medien- und Didaktikzentrum, Fachbereich Gestaltung und Forschungsabteilung der PHTG, Astoria-Saal"
+            },
+            {
+                "from_to": "17:00-22:00",
+                "title": "Mein Finger als Pinsel - Digitale Fingermalerei auf iPad und iPod",
+                "description": "Malen und zeichnen auf dem iPad mit dem App brushes. Einfach in der Bedienung, vielfältig in der Anwendung und kreativ in der Umsetzung.",
+                "kind": [
+                    "Mitmachen",
+                    "Kinder"
+                ],
+                "details": "Susanne Kiebler, Fachbereich Gestaltung PHTG, Astoria-Saal"
+            }
+        ]
+    },
+    {
+        "place_name": "Universität Konstanz",
+        "lat": "9.187047",
+        "long": "47.688923",
+        "programme_entries": [
+            {
+                "from_to": "17:00-18:00",
+                "title": "Nano-Labor",
+                "description": "Die Welt der kleinsten Teile: Vortrag und Führung durch das Nano-Labor und Elektronenmikroskop.",
+                "kind": [
+                    "Kinder",
+		    "Vortrag"
+                ],
+                "details": "Vortrag von Matthias Hagner mit anschließender Führung von Dr. Marina Krumova und Annika Zuschlag, R513"
+            },
+            {
+                "from_to": "17:00-17:30",
+                "title": "Rote raten, Schinken schneiden, Ziegen zeigen - typisch Mathe?",
+                "description": "Typisch Mathematisches spielerisch erfahren. Für Kinder ab 6. Klasse.",
+                "kind": [
+                    "Kinder",
+		    "Vortrag"
+                ],
+                "details": "Vortrag von Prof. Dr. Reinhard Racke, R711"
+            },
+            {
+                "from_to": "17:00-17:30",
+                "title": "Das neue Gesicht der Bibliothek: Führung durch die Bibliotheksbereiche im Sanierungsprozess",
+                "description": "Ein Einblick in die derzeit in Sanierung befindlichen Bibliotheksbereiche.",
+                "kind": [
+                    "Kinder",
+		    "Führung"
+                ],
+                "details": "Führung von Petra Hätscher, Leitende Bibliotheksdirektorin, Treffpunkt KIM-Stand"
+            },
+            {
+                "from_to": "17:00-18:00",
+                "title": "Botanischer Garten",
+                "description": "Wechselwirkungen zwischen Pflanze und Tier: Führung durch den Botanischen Garten.",
+                "kind": [
+                    "Kinder",
+		    "Führung"
+                ],
+                "details": "Führung von Dr. Gregor Schmitz, Treffpunkt Info-Stand"
+            },
+            {
+                "from_to": "17:00-18:00",
+                "title": "-David Malroboter",
+                "description": "e-David, der Künstler unter den Robotern: Wie ein Roboter das Malen lernt - mit Greifarm, Pinsel und Palette.",
+                "kind": [
+                    "Kinder",
+		    "Führung"
+                ],
+                "details": "Führung von Thomas Lindemeier und Oliver Deussen, Z612"
+            }
+        ]
+    }
+]

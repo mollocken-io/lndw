@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Lange Nacht der Wissenschaft</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        border-bottom: 50px solid white;
+        padding: 0px
+      }
+    </style>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+<script>
+
+function initialize() {
+
+  var mapOptions = {
+      zoom: 12,
+      center: new google.maps.LatLng(47.67, 9.16)
+  };
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+        mapOptions);
+
+  var myLatlng = new google.maps.LatLng(47.68,9.164);
+  var mapOptions = {
+      zoom: 12,
+      center: myLatlng
+  }
+
+  var map = new google.maps.Map(document.getElementById('map-canvas'),
+  mapOptions);
+
+  var konstanzLatLng  = new google.maps.LatLng(47.67, 9.16);
+
+  var konstanz = new google.maps.Marker({
+      position: konstanzLatLng,
+      map: map,
+      title: 'Lange Nacht der Wissenschaft'
+  });
+
+    attachSecretMessage(marker, 'Lange Nacht der Wissenschaft');
+
+  function attachSecretMessage(marker, num) {
+    var message = ['Was isch mit dir los?'];
+    var infoWindow = new google.maps.InfoWindow({
+        content: message['']
+   });
+
+  google.maps.event.addListener(marker, 'click', function() {
+     infowindow.open(marker.get('map'), marker);
+   });
+  }
+
+}
+google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+  </head>
+  <body>
+    <div id="map-canvas"></div>
+  </body>
+</html>
