@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bscwarc SYSTEM "http://bscw.de/bscw/bscwarc.dtd">
+<bscwarc id="de.uni-konstanz.inf.bscw:80H.bscw" server="http://bscw.inf.uni-konstanz.de" timestamp="20140515T190949Z" pathsep="/">
+  <metadata xmlns:bscw="http://bscw.de/bscw/elements/0.1/" >
+    <obj ctime="1399370169.28" creator="jens" id="1073829" mtime="1399370169.28" path="karte.png" type="image/png" class="bscw.core.cl_document.Document" >
+      <bscw:description></bscw:description>
+      <bscw:name>karte.png</bscw:name>
+      
+    </obj>
+    <obj ctime="1399370082.3" creator="jens" id="1073818" mtime="1399370082.3" path="lndw_programm.json" type="application/octet-stream" class="bscw.core.cl_document.Document" >
+      <bscw:description></bscw:description>
+      <bscw:name>lndw_programm.json</bscw:name>
+      
+    </obj>
+    <obj ctime="1399370179.05" creator="jens" id="1073833" mtime="1399370179.05" path="uebersicht.png" type="image/png" class="bscw.core.cl_document.Document" >
+      <bscw:description></bscw:description>
+      <bscw:name>uebersicht.png</bscw:name>
+      
+    </obj>
+    
+  </metadata>
+</bscwarc>

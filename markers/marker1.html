@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no">
+    <meta charset="utf-8">
+    <title>Lange Nacht der Wissenschaft</title>
+    <style>
+      html, body, #map-canvas {
+        height: 100%;
+        margin: 0px;
+        padding: 0px
+      }
+    </style>
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+
+<script>
+
+var map;
+
+function initialize(){
+
+var mapOptions = {
+    center: new google.maps.LatLng(47.68, 9.16),
+    zoom: 12,
+    mapTypedId: google.maps.MapTypedId.ROADMAP
+};
+
+var map = new google.maps.Map(document.getElementById('map'),
+mapOptions);
+
+var markerOptions = {
+    position: new google.maps.LatLng(47.68,9.16),
+    map: map
+};
+
+var marker = new google.maps.Marker(markerOptions);
+marker.setMap(map);
+
+var infoWindowOptions = {
+    content: 'Lange Nacht der Wissenschaft Moruk!'
+};
+
+var infoWindow = new google.maps.InfoWindow(WindowOptions);
+
+google.maps.event.addListener(marker,'click',function(e){
+
+    infoWindow.open(map, marker);
+});
+
+}
+</script>
+ </head>
+
+  <body>
+    <div id="map-canvas"></div>
+  </body>
+
+</html>
