@@ -33,6 +33,5 @@ a {
   font-size:22px
 }
 .info-table {
-    table-layout: fixed;
     word-wrap: break-word;
 }
