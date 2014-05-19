@@ -1,163 +1,163 @@
-<!DOCTYPE html>
-<html>
-<head>
-<title>Konstanzer Lange Nach der Wissenschaft</title>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta >
-<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-<link href="css/styles.css" rel="stylesheet">
-
-
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
-<script>
-
-var map;
-
-function initialize() {
-
-  var mapOptions = {
-      zoom: 13,
-      center: new google.maps.LatLng(47.68, 9.16)
-  };
-
-  map = new google.maps.Map(document.getElementById('map-canvas'),
-      mapOptions);
-
-  //Marker HTWG Konstanz
-
-  var HTWGmarkerOptions = {
-          position: new google.maps.LatLng(47.667736, 9.172027),
-          title: 'HTWG Konstanz',
-          map: map
-  };
-
-  var HTWGmarker = new google.maps.Marker(HTWGmarkerOptions);
-  HTWGmarker.setMap(map);
-
-  var HTWGinfoWindowOptions = {
-      content: 'HTWG'
-  };
-
-  var HTWGInfoWindow = new google.maps.InfoWindow(HTWGinfoWindowOptions);
-
-  HTWGInfoWindow.open(map, HTWGmarker);
-
-  google.maps.event.addListener(HTWGmarker,'click',function(e){
-
-      window.location.href = "events/HTWGevents.html";
-      //HTWGInfoWindow.open(map, HTWGmarker);
-      });
-
-
-  //Marker Insel Mainau
-
-  var MainauMarkerOptions = {
-        position: new google.maps.LatLng(47.703928, 9.195746),
-        title: 'Insel Mainau',
-        map: map
-  };
-
-  var MainauMarker = new google.maps.Marker(MainauMarkerOptions);
-
-  var MainauInfoWindowOptions = {
-        content: 'Mainau'
-  };
-
-  var MainauInfoWindow = new
-  google.maps.InfoWindow(MainauInfoWindowOptions);
-
-  MainauInfoWindow.open(map, MainauMarker);
-
-  google.maps.event.addListener(MainauMarker, 'click', function(e){
-
-      window.location.href = "events/MainauEvents.html";
-      //MainauInfoWindow.open(map, MainauMarker);
-      });
-
-  //Marker Kulturzentrum am Münster (Stadt und PHTG)
-
-  var KulturZentrumMarkerOptions = {
-          position: new google.maps.LatLng(47.663386, 9.175139),
-          title: 'Kulturzentrum am Münster (Stadt und PHTG)',
-          map: map
-  };
-
-  var KulturZentrumMarker = new google.maps.Marker(KulturZentrumMarkerOptions);
-
-  var KulturZentrumInfoWindowOptions = {
-       content: 'KuZ'
-  };
-
-  var KulturZentrumInfoWindow = new google.maps.InfoWindow(KulturZentrumInfoWindowOptions);
-
-   KulturZentrumInfoWindow.open(map, KulturZentrumMarker);
-
-  google.maps.event.addListener(KulturZentrumMarker, 'click', function(e){
-
-      window.location.href = "events/KulturzentrumEvents.html";
-      //KulturZentrumInfoWindow.open(map, KulturZentrumMarker);
-      });
-
-  //Marker Universität Konstanz
-
-  var UniKonstanzMarkerOptions = {
-          position: new google.maps.LatLng(47.688923, 9.187047),
-          title: 'Universität Konstanz',
-          map: map
-  };
-
-  var UniKonstanzMarker = new google.maps.Marker(UniKonstanzMarkerOptions);
-
-  var UniKonstanzInfoWindowOptions = {
-          content: 'Uni'
-  };
-
-  var UniKonstanzInfoWindow = new google.maps.InfoWindow(UniKonstanzInfoWindowOptions);
-
-  UniKonstanzInfoWindow.open(map, UniKonstanzMarker);
-
-  google.maps.event.addListener(UniKonstanzMarker, 'click', function(e){
-
-      window.location.href = "events/UniEvents.html";
-      //UniKonstanzInfoWindow.open(map, UniKonstanzMarker);
-      });
-
-}
-//Document Object Modell. Event wird an den Browser weitergegeben.
-//Es wird anscheinend das Fenster geladen.
-
-    google.maps.event.addDomListener(window, 'load', initialize);
-
-</script>
-
-</head>
-
-<body>
-<div id="map-canvas"></div>
-<div id="wrap">
-
-  <!-- Begin page content -->
-  <div class="container">
-
-
-  </div>
-</div>
-
-<div id="footer">
-  <div class="container">
-    <div class="centered navbar-fixed-bottom navbar-inverse">
-      <button class="btn btn-large btn-primary" type="button"
-  onclick="javascript:window.location.href='index.html'">Karte</button>
-      <button class="btn btn-large btn-primary" type="button"
-  onclick="javascript:window.location.href='details.html'">Details</button>
-    </div>
-  </div>
-</div>
-
-<script src="bower_components/jquery/dist/jquery.min.js"></script>
-<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
-
-</body>
-
-</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Konstanzer Lange Nach der Wissenschaft</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta >
+<link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="css/styles.css" rel="stylesheet">
+
+
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script>
+
+var map;
+
+function initialize() {
+
+  var mapOptions = {
+      zoom: 13,
+      center: new google.maps.LatLng(47.68, 9.16)
+  };
+
+  map = new google.maps.Map(document.getElementById('map-canvas'),
+      mapOptions);
+
+  //Marker HTWG Konstanz
+
+  var HTWGmarkerOptions = {
+          position: new google.maps.LatLng(47.667736, 9.172027),
+          title: 'HTWG Konstanz',
+          map: map
+  };
+
+  var HTWGmarker = new google.maps.Marker(HTWGmarkerOptions);
+  HTWGmarker.setMap(map);
+
+  var HTWGinfoWindowOptions = {
+      content: 'HTWG'
+  };
+
+  var HTWGInfoWindow = new google.maps.InfoWindow(HTWGinfoWindowOptions);
+
+  HTWGInfoWindow.open(map, HTWGmarker);
+
+  google.maps.event.addListener(HTWGmarker,'click',function(e){
+
+      window.location.href = "events/HTWGevents.html";
+      //HTWGInfoWindow.open(map, HTWGmarker);
+      });
+
+
+  //Marker Insel Mainau
+
+  var MainauMarkerOptions = {
+        position: new google.maps.LatLng(47.703928, 9.195746),
+        title: 'Insel Mainau',
+        map: map
+  };
+
+  var MainauMarker = new google.maps.Marker(MainauMarkerOptions);
+
+  var MainauInfoWindowOptions = {
+        content: 'Mainau'
+  };
+
+  var MainauInfoWindow = new
+  google.maps.InfoWindow(MainauInfoWindowOptions);
+
+  MainauInfoWindow.open(map, MainauMarker);
+
+  google.maps.event.addListener(MainauMarker, 'click', function(e){
+
+      window.location.href = "events/MainauEvents.html";
+      //MainauInfoWindow.open(map, MainauMarker);
+      });
+
+  //Marker Kulturzentrum am Münster (Stadt und PHTG)
+
+  var KulturZentrumMarkerOptions = {
+          position: new google.maps.LatLng(47.663386, 9.175139),
+          title: 'Kulturzentrum am Münster (Stadt und PHTG)',
+          map: map
+  };
+
+  var KulturZentrumMarker = new google.maps.Marker(KulturZentrumMarkerOptions);
+
+  var KulturZentrumInfoWindowOptions = {
+       content: 'KuZ'
+  };
+
+  var KulturZentrumInfoWindow = new google.maps.InfoWindow(KulturZentrumInfoWindowOptions);
+
+   KulturZentrumInfoWindow.open(map, KulturZentrumMarker);
+
+  google.maps.event.addListener(KulturZentrumMarker, 'click', function(e){
+
+      window.location.href = "events/KulturzentrumEvents.html";
+      //KulturZentrumInfoWindow.open(map, KulturZentrumMarker);
+      });
+
+  //Marker Universität Konstanz
+
+  var UniKonstanzMarkerOptions = {
+          position: new google.maps.LatLng(47.688923, 9.187047),
+          title: 'Universität Konstanz',
+          map: map
+  };
+
+  var UniKonstanzMarker = new google.maps.Marker(UniKonstanzMarkerOptions);
+
+  var UniKonstanzInfoWindowOptions = {
+          content: 'Uni'
+  };
+
+  var UniKonstanzInfoWindow = new google.maps.InfoWindow(UniKonstanzInfoWindowOptions);
+
+  UniKonstanzInfoWindow.open(map, UniKonstanzMarker);
+
+  google.maps.event.addListener(UniKonstanzMarker, 'click', function(e){
+
+      window.location.href = "events/UniEvents.html";
+      //UniKonstanzInfoWindow.open(map, UniKonstanzMarker);
+      });
+
+}
+//Document Object Modell. Event wird an den Browser weitergegeben.
+//Es wird anscheinend das Fenster geladen.
+
+    google.maps.event.addDomListener(window, 'load', initialize);
+
+</script>
+
+</head>
+
+<body>
+<div id="map-canvas"></div>
+<div id="wrap">
+
+  <!-- Begin page content -->
+  <div class="container">
+
+
+  </div>
+</div>
+
+<div id="footer">
+  <div class="container">
+    <div class="centered navbar-fixed-bottom navbar-inverse">
+      <button class="btn btn-large btn-primary" type="button"
+  onclick="javascript:window.location.href='index.html'">Karte</button>
+      <button class="btn btn-large btn-primary" type="button"
+  onclick="javascript:window.location.href='events/details.html'">Details</button>
+    </div>
+  </div>
+</div>
+
+<script src="bower_components/jquery/dist/jquery.min.js"></script>
+<script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
