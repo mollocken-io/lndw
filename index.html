@@ -9,7 +9,7 @@
 <link href="css/styles.css" rel="stylesheet">
 
 
-<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=false"></script>
+<script src="https://maps.googleapis.com/maps/api/js?v=3.exp&sensor=true"></script>
 <script>
 
 var map;
@@ -123,9 +123,47 @@ function initialize() {
       //UniKonstanzInfoWindow.open(map, UniKonstanzMarker);
       });
 
+ // Try HTML5 geolocation
+  if(navigator.geolocation) {
+    navigator.geolocation.getCurrentPosition(function(position) {
+      var pos = new google.maps.LatLng(position.coords.latitude,
+                                       position.coords.longitude);
+
+      var infowindow = new google.maps.InfoWindow({
+        map: map,
+        position: pos,
+        content: 'Location found using HTML5.'
+      });
+
+      map.setCenter(pos);
+    }, function() {
+      handleNoGeolocation(true);
+    });
+  } else {
+    // Browser doesn't support Geolocation
+    handleNoGeolocation(false);
+  }
+
 }
 //Document Object Modell. Event wird an den Browser weitergegeben.
 //Es wird anscheinend das Fenster geladen.
+
+function handleNoGeolocation(errorFlag) {
+  if (errorFlag) {
+    var content = 'Error: The Geolocation service failed.';
+  } else {
+    var content = 'Error: Your browser doesn\'t support geolocation.';
+  }
+
+  var options = {
+    map: map,
+    position: new google.maps.LatLng(47.68, 9.16),
+    content: content
+  };
+
+  var infowindow = new google.maps.InfoWindow(options);
+  map.setCenter(options.position);
+}
 
     google.maps.event.addDomListener(window, 'load', initialize);
 
@@ -150,7 +188,7 @@ function initialize() {
       <button class="btn btn-large btn-primary" type="button"
   onclick="javascript:window.location.href='index.html'">Karte</button>
       <button class="btn btn-large btn-primary" type="button"
-  onclick="javascript:window.location.href='events/details.html'">Details</button>
+  onclick="javascript:window.location.href='details.html'">Details</button>
     </div>
   </div>
 </div>
